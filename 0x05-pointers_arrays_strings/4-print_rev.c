@@ -12,7 +12,7 @@ for (i = 0; s[i] != '\0'; i++)
 leng++;
 for (i = leng - 1; i >= 0; i--)
 {
-_putchar(s[i]);
+putchar(s[i]);
 }
-_putchar('\n');
+putchar('\n');
 }
