@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
 * puts2 - function print string every new line
 * @str: first input
