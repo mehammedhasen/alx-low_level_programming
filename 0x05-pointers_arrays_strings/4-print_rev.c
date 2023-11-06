@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
 * print_rev - Entry point
 * @s: input string
@@ -12,7 +12,7 @@ for (i = 0; s[i] != '\0'; i++)
 leng++;
 for (i = leng - 1; i >= 0; i--)
 {
-putchar(s[i]);
+_putchar(s[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
