@@ -15,6 +15,6 @@ for (i = 0; i < leng / 2; i++)
 char j;
 j = s[i];
 s[i] = s[leng - 1 - i];
-s[count - 1 - i] = j;
+s[leng - 1 - i] = j;
 }
 }
