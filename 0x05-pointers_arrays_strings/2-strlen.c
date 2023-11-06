@@ -2,15 +2,17 @@
 /**
 * _strlen - function that returns length of a string
 * @s: input string
+* @c: starting from 0
 * Return: leng
 */
 
 void _strlen(char *s)
 {
 int leng = 0;
-while (*s != '\0')
+int c = 0;
+while (s[c] != '\0')
 {leng++;
-s++;
+s[c]++;
 }
 return (leng);
 }
