@@ -2,7 +2,7 @@
 /**
 * _strlen - function that returns length of a string
 * @s: input string
-* Return: length
+* Return: leng
 */
 
 void _strlen(char *s)
