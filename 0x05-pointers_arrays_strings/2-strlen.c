@@ -5,8 +5,7 @@
 * @c: starting from 0
 * Return: leng
 */
-
-void _strlen(char *s)
+int  _strlen(char *s)
 {
 int leng = 0;
 int c;
