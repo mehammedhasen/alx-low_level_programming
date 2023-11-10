@@ -4,7 +4,6 @@
 * _strcmp - Entry point compre string
 * @s1: first input
 * @s2: second input
-* @n: 3rd input
 * Return: s1[i] - s2[i]
 */
 
