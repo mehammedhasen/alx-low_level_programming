@@ -16,7 +16,7 @@ int i;
 for (i = 0; i < n && *src != '\0'; i++)
 {
 dest[len + i] = *src;
-scr++;
+src++;
 }
 dest[len + i] = '\0';
 return (dest);
