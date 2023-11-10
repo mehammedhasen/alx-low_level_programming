@@ -3,7 +3,7 @@
 /**
 * _strncat - Entry point
 * @dest: first input
-* @*src: second input
+* @src: second input
 * @n: 3rd input
 * Return: dest
 */
@@ -17,7 +17,7 @@ for (i = 0; i < n && *src != '\0'; i++)
 {
 dest[len + i] = *src;
 src++;
-dest[len + i] = '\0';
 }
+dest[len + i] = '\0';
 return (dest);
 }
