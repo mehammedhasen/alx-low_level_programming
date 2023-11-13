@@ -4,7 +4,7 @@
 * _memcpy - copy memory area
 * @dest: memory sored
 * @src: memory copied
-* @n: bytes
+* *@n: bytes
 * Return: copied memory n byte changed
 */
 
