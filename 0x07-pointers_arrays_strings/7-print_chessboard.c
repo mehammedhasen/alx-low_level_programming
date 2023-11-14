@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * print_chessboard - print chese board
 * @a: array
@@ -8,11 +8,11 @@
 
 void print_chessboard(char (*a)[8])
 {
-int i, j;
-for (i = 0; i < 8; i++)
+int x, k;
+for (x = 0; x < 8; x++)
 {
-for (j = 0; j < 8, j++)
-_putchar(a[i][j]);
+for (k = 0; k < 8, k++)
+_putchar(a[x][k]);
 _putchar('\n');
 }
 }
