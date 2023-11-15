@@ -12,7 +12,7 @@ if (x == y)
 return (1);
 if (!(x % y))
 return (0);
-return (prime_finder(x, y + 1));
+return (my_prime_finder(x, y + 1));
 }
 /**
  * is_prime_number - returns if a number is prime
