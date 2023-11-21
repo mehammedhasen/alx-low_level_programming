@@ -17,7 +17,7 @@ return (NULL);
 if (size != 0)
 {
 CreateAarray = (char *)malloc(size * sizeof(char));
-if (array != NULL)
+if (CreateAarray != NULL)
 {
 for (i = 0; i < size; i++)
 CreateAarray[i] = c;
