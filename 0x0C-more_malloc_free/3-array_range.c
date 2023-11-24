@@ -19,7 +19,7 @@ total = max - min + 1;
 My = malloc(sizeof(int) * total);
 if (My == NULL)
 return (NULL);
-for (i = 0; i < size; i += 1)
+for (i = 0; i < total; i += 1)
 {
 My[i] = min + i;
 }
