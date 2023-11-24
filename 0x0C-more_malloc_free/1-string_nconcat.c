@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * string_nconcat - a function concatnate strings with n bytes
  * @s1: destination for concatnation
