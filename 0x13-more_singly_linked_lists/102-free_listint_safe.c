@@ -3,7 +3,7 @@
 /**
  * free_listint_safe - Prints a linked list
  * @h: Pointer to address of a list
- * Return: Size of the list that was freed
+ * Return: Size of the list that was free
  */
 size_t free_listint_safe(listint_t **h)
 {
